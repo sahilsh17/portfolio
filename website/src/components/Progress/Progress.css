@@ -1,17 +1,18 @@
 .progress{
-  height: 30px;
+  height: 30px !important;
   width: 600px;
   background-color: #d8d8d8;
-  border-radius: 20px;
+  
 }
 .progress-done{
   height: 100%;
   width: 0;
-  background: linear-gradient(to left,#F2709C,#FF9472);
-  box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
-  border-radius: 20px;
+  background: linear-gradient(to left,#709ef2,#4963f8);
+  box-shadow: 0 3px 3px -5px #709ef2, 0 2px 5px #4963f8;
   opacity: 0;
   align-items: center;
   justify-content: center;
   display: flex;
+  transition: 1s ease;
+  transition-delay: 0.5s;
 }

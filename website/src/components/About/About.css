@@ -12,6 +12,9 @@ h1.title{
 .skills-section{
   display: flex;
   flex-direction: column;
+  height: 200px;
+  justify-content: space-around;
+
 }
 .skills{
   display: flex;
@@ -19,4 +22,22 @@ h1.title{
 }
 .skills > span {
   color: black;
+}
+section.about{
+  width: 100%;
+  display: flex;
+  padding: 7% 15%;
+  align-items: space-between;
+  align-content: space-around;
+  font-family: 'Heebo', sans-serif;
+}
+.section-skills{
+  align-items: start;
+  text-align: left;
+  
+}
+.content-wrap{
+  display: flex;
+  align-items: space-between;
+  align-content: space-around;
 }

@@ -1,13 +1,16 @@
 import logo from '../../logo.svg';
 import react from 'react';
 import  './Header.css';
-
+import ParticleBackground from '../../ParticleBackground';
+import CenterTitle from '../Center-Title/CenterTitle';
 function Header() {
   return (
    <div className="header">
-     <h1>Hello, I am <span>Sahil Sharma</span>, Full-Stack Developer.</h1> 
+        <ParticleBackground />
+        <CenterTitle />
    </div>
   );
 }
+
 
 export default Header;
