@@ -23,6 +23,9 @@ h1.title{
 .skills > span {
   color: black;
 }
+.section-image{
+  padding: 20px
+}
 section.about{
   width: 100%;
   display: flex;
@@ -38,6 +41,92 @@ section.about{
 }
 .content-wrap{
   display: flex;
+  flex-direction: column;
   align-items: space-between;
   align-content: space-around;
+  width: 400px;
+}
+.content-wrap > p{
+  text-align: center; 
+}
+.image{
+  height: 70%;
+  width: 70%;
+  padding: 20px;
+}
+.image-container{
+  text-align: center;
+}
+.skills{
+  padding: 10px;
+  
+}
+.skill-name{
+  background-color:#2f49db;
+  width:100px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+
+}
+.hexagon {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #64C7CC;
+  margin: 28.87px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #2f999e;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #64C7CC;
+}
+.icon-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  width:100%;
+}
+.header-about{
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+}
+.icon-bar{
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  align-content: space-around; 
+  width: 25%;
+ 
+}
+.icon{
+ text-align: center;
+}
+.icon-bar > p {
+  
+  text-align:center;
+}
+.Font-header{
+  color: black;
+  text-align:center;
 }
