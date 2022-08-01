@@ -13,23 +13,23 @@ function About() {
     <div className="icon-container">
       <div className="icon-bar">
          <div className="icon"><FontAwesomeIcon color="#4963f8" icon={faTachometerAlt} size='4x'/></div>
-         <h1 className='Font-header'>Fast</h1>
+         <h3 className='Font-header'>Fast</h3>
          <p>Fast load times and lag free interaction, my highest priority.</p>
       </div>
       
       <div className="icon-bar">
          <div className="icon"><FontAwesomeIcon color="#4963f8" icon={faLightbulb} size='4x'/></div>
-         <h1 className="Font-header">Responsive</h1>
+         <h3 className="Font-header">Responsive</h3>
          <p>Strong preference for easy to use, intuitive UX/UI.</p>
       </div>
       <div className="icon-bar">
       <div className="icon"><FontAwesomeIcon color="#4963f8" icon={faLaptop} size='4x'/></div>
-      <h1 className="Font-header">Intuitive</h1>
+      <h3 className="Font-header">Intuitive</h3>
       <p>My layouts will work on any device, big or small.</p>
       </div>
       <div className="icon-bar">
       <div className='icon'><FontAwesomeIcon color="#4963f8" icon={faRocket} size='4x'/></div>
-      <h1 className="Font-header">Dynamic</h1>
+      <h3 className="Font-header">Dynamic</h3>
       <p>Websites don't have to be static, I love making pages come to life.</p>
       </div>
       

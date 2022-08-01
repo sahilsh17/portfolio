@@ -6,7 +6,7 @@ function CenterTitle() {
   return(
   <div id="text_div center_all">
     <div className="center_all">
-      <h1 className="custom-subTitle">Hello, I am <span>Sahil Sharma</span>, Full-Stack Developer.</h1>
+      <h1 className="custom-subtitle">Hello, I am <span>Sahil Sharma</span>, Full-Stack Developer.</h1>
     </div>
   </div>
   );

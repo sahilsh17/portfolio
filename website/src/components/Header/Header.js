@@ -5,10 +5,12 @@ import ParticleBackground from '../../ParticleBackground';
 import CenterTitle from '../Center-Title/CenterTitle';
 function Header() {
   return (
+    <>
+   
    <div className="header">
-        <ParticleBackground />
         <CenterTitle />
    </div>
+   </>
   );
 }
 
