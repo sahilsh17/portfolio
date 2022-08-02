@@ -27,7 +27,7 @@ function Projects() {
             
            </header>
            {/* <p class="card__excerpt">{product.description}</p>
-           <h2 className="card__price">${product.price}</h2> */}
+            */}
            {/* <div className="overlay">
            <Link to={{pathname:'/product-details', state: {SliderData: product.SliderData, title: product.name, price: product.price, description: product.description, link:product.link}}}> <button className="view">View</button> </Link>
            </div> */}

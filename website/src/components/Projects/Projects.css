@@ -1,11 +1,4 @@
-.header-projects{
-  text-align: center;
-  color: black;
-  font-size: 50px;
-  font-weight: bold;
-  padding: 10px;
-  margin-top: 20px;
-}
+
 .project-container{
   width: 100%;
   display: flex;
@@ -14,8 +7,11 @@
   font-family: 'Cantarell', sans-serif;
   background-color: rgb(215, 237, 255);
 }
+.project-section{
+  background-color: #f1f1f1;
+}
 .card {
-  width: 300px;
+  width: 400px;
   background: #fff;
   transition: box-shadow 0.3s ease-in-out;
  
@@ -42,7 +38,7 @@
 
 .card__media {
   position: relative;
-  width: 300px;
+  width: 400px;
 }
 
 /* Adds transparent overlay over image. */
@@ -85,7 +81,7 @@ h1.project-title{
   color: black;
   font-size: 50px;
   font-weight: bold;
-  padding: 10px;
+  padding: 50px;
   margin-top: 20px;
 }
 .date--day {
