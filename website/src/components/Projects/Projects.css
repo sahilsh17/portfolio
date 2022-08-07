@@ -190,4 +190,11 @@ button {
   font-size: 15px;
 
   }
-  
+  .wrapper:hover .overlay{
+    opacity: 1;
+    transition: 0.2s linear;
+
+  }
+  button.view{
+    font-weight: bolder;
+  }
