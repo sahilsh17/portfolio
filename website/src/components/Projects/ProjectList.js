@@ -8,14 +8,14 @@ export const ProjectList = [
   { 
     name: 'Scheduler',
     description: 'An e commerce website of a bike accessory selling company built in React',
-    link: 'https://thunderstrike123.herokuapp.com/',
+    link: 'https://github.com/sahilsh17/scheduler',
     images: [{image:'images/3.png'},{image:'images/4.png'},{image:'images/5.png'}]
 
   },
   {
     name: 'Thunderstrike',
     description: 'The Interview schedular is a react web app that allows a student to book an interview with various interviewers available for a particular day.',
-    link: 'https://github.com/sahilsh17/scheduler',
+    link: 'https://thunderstrike123.herokuapp.com',
     images: [{image:'images/6.png'},{image:'images/7.png'},{image:'images/8.png'}]
 
   },

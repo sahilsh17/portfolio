@@ -178,7 +178,7 @@ button {
   margin-top: 4em;
   position: absolute;  
   top: 200px;
-
+  left:70px;
   }
   .overlay{
     opacity: 0;

@@ -1,14 +1,9 @@
 import React,{useState} from 'react';
 import  './Projects.css';
 import {ProjectList} from './ProjectList';
-import {Modal} from '../Modal/Modal';
-import { GlobalStyle } from '../../globalStyles';
 
 function Projects() {
-  const [showModal, setShowModal] = useState(false);
-  const openModal = () => {
-    setShowModal(prev => !prev);
-  }
+ 
   return (
 
     <>
@@ -35,14 +30,15 @@ function Projects() {
            {/* <p class="card__excerpt">{product.description}</p>
             */}
            <div className="overlay">
-          <button onClick={openModal} className="view">View</button> 
-          <Modal showModal={showModal} setShowModal={setShowModal}></Modal>
-          <GlobalStyle></GlobalStyle>
+           <a href={project.link}>
+          <button className="view">View</button> 
+          </a>
            </div>
          </div>
          
         </article>
         </div>
+       
       </>
       )
       
@@ -51,6 +47,7 @@ function Projects() {
     
   
   </div>
+
   </div>
   </>
   );

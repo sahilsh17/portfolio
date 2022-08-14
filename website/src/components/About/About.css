@@ -24,7 +24,8 @@ h1.title{
   color: black;
 }
 .section-image{
-  padding: 20px
+  padding: 20px;
+  
 }
 section.about{
   width: 100%;
@@ -69,33 +70,6 @@ section.about{
   font-weight: bold;
 
 }
-.hexagon {
-  position: relative;
-  width: 100px; 
-  height: 57.74px;
-  background-color: #64C7CC;
-  margin: 28.87px 0;
-}
-
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-}
-
-.hexagon:before {
-  bottom: 100%;
-  border-bottom: 28.87px solid #2f999e;
-}
-
-.hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 28.87px solid #64C7CC;
-}
 .icon-container{
   display: flex;
   flex-direction: row;
@@ -134,4 +108,57 @@ section.about{
 }
 body{
   background-color: white;
+}
+@media screen and (max-width: 960px) {
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 50px;
+   
+}
+  .icon-container > div {
+    flex: 50%;
+  }
+  section.about {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    flex-direction: column;
+}
+}
+@media screen and (max-width: 600px) {
+  .image{
+    height: 70%;
+    width: 60%;
+    padding: 20px;
+  }
+  .content-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    align-content: space-around;
+  }
+  .section-image{
+    padding: 20px;
+    align-items: center;
+  }
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 50px;
+   
+}
+  .icon-container > div {
+    flex: 50%;
+  }
+  section.about {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    flex-direction: column;
+}
 }
