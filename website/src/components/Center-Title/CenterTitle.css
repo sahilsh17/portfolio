@@ -14,3 +14,12 @@
   position: absolute;
 }
 
+@media screen and (max-width: 600px) {
+  .center_all{
+    position: absolute;
+    top:50%;
+    left:20%;
+    transform: translateY(-50%, -50%);
+    position: absolute;
+  }
+}

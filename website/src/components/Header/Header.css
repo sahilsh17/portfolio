@@ -16,4 +16,9 @@ span{
 h1 {
   font-family:monospace;
 }
-
+@media screen and (max-width: 600px) {
+  h1.custom-subtitle {
+    font-size: 1.5rem;
+  }
+  
+}

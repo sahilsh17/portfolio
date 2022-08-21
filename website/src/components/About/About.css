@@ -24,7 +24,7 @@ h1.title{
   color: black;
 }
 .section-image{
-  padding: 20px;
+  padding-right: 60px;
   
 }
 section.about{
@@ -34,25 +34,26 @@ section.about{
   align-items: space-between;
   align-content: space-around;
   font-family: 'Heebo', sans-serif;
+  justify-content: center;
 }
 .section-skills{
   align-items: start;
   text-align: left;
-  
+  width: 90%;
 }
 .content-wrap{
   display: flex;
   flex-direction: column;
   align-items: space-between;
   align-content: space-around;
-  width: 400px;
+  
 }
 .content-wrap > p{
   text-align: center; 
 }
 .image{
   height: 70%;
-  width: 70%;
+  width: 300px;
   padding: 20px;
 }
 .image-container{
@@ -94,9 +95,13 @@ section.about{
   width: 25%;
   padding: 20px;
 }
+.icon-bar > h3{
+  font-weight: 600;
+}
 
 .icon{
  text-align: center;
+ padding-bottom: 20px;
 }
 .icon-bar > p {
   
@@ -117,6 +122,16 @@ body{
     margin-top: 50px;
    
 }
+.content-wrap > p {
+  text-align: center;
+  padding: 30px;
+ 
+}
+.image{
+  height: 70%;
+  width: 300px;
+  padding: 20px;
+}
   .icon-container > div {
     flex: 50%;
   }
@@ -126,12 +141,13 @@ body{
     padding: 0;
     font-family: 'Heebo', sans-serif;
     flex-direction: column;
+    align-items: center;
 }
 }
 @media screen and (max-width: 600px) {
   .image{
     height: 70%;
-    width: 60%;
+    width: 250px;
     padding: 20px;
   }
   .content-wrap{
@@ -139,6 +155,7 @@ body{
     flex-direction: column;
     align-items: space-between;
     align-content: space-around;
+    font-size: 85%;
   }
   .section-image{
     padding: 20px;
@@ -147,12 +164,15 @@ body{
   .icon-container {
     display: flex;
     flex-wrap: wrap;
-    
+    font-size: 80%;
     margin-top: 50px;
    
 }
   .icon-container > div {
     flex: 50%;
+  }
+  .icon-bar > h3 {
+    font-size: 22px;
   }
   section.about {
     width: 100%;
@@ -161,4 +181,12 @@ body{
     font-family: 'Heebo', sans-serif;
     flex-direction: column;
 }
+  .skill-name{
+    font-size: 80%;
+    padding: 5px;
+  }
+  .header-about{
+    font-size: 45px;
+  }
+ 
 }

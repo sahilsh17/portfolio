@@ -145,7 +145,8 @@ h1.project-title{
   color: initial;
   margin: 0 0 10px;
   font-size: 20px;
-  font-weight: bold
+  font-weight: bold;
+  text-align: center;
 }
 
 .card__subtitle {
@@ -198,3 +199,4 @@ button {
   button.view{
     font-weight: bolder;
   }
+  
