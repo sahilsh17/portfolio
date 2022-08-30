@@ -1,5 +1,5 @@
-import logo from '../../logo.svg';
-import {react, useEffect, useState} from 'react';
+
+import React,{useState} from 'react';
 import  './Progress.css';
 
 function Progress({done}) {

@@ -1,7 +1,7 @@
 .footer-dark {
   padding:50px 0;
   color:#f0f9ff;
-  background-color:#2d2b8a;
+  background-color:#2f49db;
 }
 
 .footer-dark h3 {
@@ -28,7 +28,31 @@
 .footer-dark ul a:hover {
   opacity:0.8;
 }
-
+.header-contact{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 25px;
+ 
+}
+.item.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Cantarell', sans-serif;
+}
+.con-att{
+  padding: 20px;
+}
+@media (max-width:600px) {
+  .item.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Cantarell', sans-serif;
+  }
+}
 @media (max-width:767px) {
   .footer-dark .item:not(.social) {
     text-align:center;

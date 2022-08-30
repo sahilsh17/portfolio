@@ -81,7 +81,7 @@ h1.project-title{
   color: black;
   font-size: 50px;
   font-weight: bold;
-  padding: 50px;
+  padding: 10px;
   margin-top: 20px;
 }
 .date--day {
@@ -198,5 +198,16 @@ button {
   }
   button.view{
     font-weight: bolder;
+  }
+  @media screen and (max-width: 600px) {
+    h1.project-title{
+      font-size: 45px;
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    
   }
   

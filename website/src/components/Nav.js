@@ -1,6 +1,5 @@
-import logo from '../logo.svg';
-import react from 'react';
-import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import React from 'react';
+import {Navbar, Nav} from 'react-bootstrap';
 
 function Navigation() {
   return (

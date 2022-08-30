@@ -1,5 +1,4 @@
 import './App.css';
-import Navigation from './components/Nav';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';

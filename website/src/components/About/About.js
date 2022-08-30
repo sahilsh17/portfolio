@@ -1,5 +1,4 @@
-import logo from '../../logo.svg';
-import react from 'react';
+import React from 'react';
 import './About.css';
 import Progress from '../Progress/Progress';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -7,6 +6,8 @@ import { faLightbulb, faTachometerAlt, faLaptop, faRocket } from '@fortawesome/f
 
 
 function About() {
+
+
   return (
     <>
     <h1 className="header-about">ABOUT </h1>
@@ -37,7 +38,7 @@ function About() {
     <section className="about">
     <div className="section-image">
       <div className="content-wrap">
-        <div className="image-container"> <img className="image" src="image.png" /></div>
+        <div className="image-container"> <img className="image" src="image.png" alt="profile"/></div>
         <p>I am a Front-end developer based out of Surrey, BC, Canada. I have a serious passion for creating fast and responsive websites using the latest technologies.</p>
         </div>
     </div>

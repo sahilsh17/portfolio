@@ -1,8 +1,8 @@
-import logo from '../../logo.svg';
-import react from 'react';
+import React from 'react';
 import  './CenterTitle.css';
 
 function CenterTitle() {
+
   return(
   <div id="text_div center_all">
     <div className="center_all">
