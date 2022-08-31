@@ -29,11 +29,11 @@ function Projects() {
            </header>
            {/* <p class="card__excerpt">{product.description}</p>
             */}
-           <div className="overlay">
+          
            <a href={project.link}>
-          <button className="view">View</button> 
+          <button className="button-61">View</button> 
           </a>
-           </div>
+          
          </div>
          
         </article>

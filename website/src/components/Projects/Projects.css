@@ -4,11 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Cantarell', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: rgb(215, 237, 255);
 }
 .project-section{
-  background-color: #f1f1f1;
+  background-color: rgb(23 23 31);
 }
 .card {
   width: 400px;
@@ -78,11 +78,13 @@
 
 h1.project-title{
   text-align: center;
-  color: black;
+  color: white;
   font-size: 50px;
   font-weight: bold;
   padding: 10px;
   margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 .date--day {
   font-size: 20px;
@@ -114,7 +116,7 @@ h1.project-title{
   padding: 40px 25px;
   color: #999999;
   transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-  font-family: 'Cantarell', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -168,7 +170,7 @@ h1.project-title{
 button {
   display: block; 
   box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.34);
-  background-color: #da0b0b;
+  background-color: rgb(92 92 255);
   color:white;
   font-size: 16px;
   border: none;
@@ -176,15 +178,8 @@ button {
   width: 250px;
   height: 64px;
   line-height: 64px;
-  margin-top: 4em;
-  position: absolute;  
-  top: 200px;
-  left:70px;
   }
-  .overlay{
-    opacity: 0;
-    transition: 0.2s linear;
-  }
+  
   .card__price{
     color: initial;
   margin: 0 0 10px;
@@ -203,11 +198,72 @@ button {
     h1.project-title{
       font-size: 45px;
       text-align: center;
-      color: black;
+      color: white;
       font-weight: bold;
       padding: 10px;
       margin-top: 20px;
+      font-family: 'Open Sans', sans-serif;
+
     }
     
   }
-  
+
+
+.button-61 {
+  align-items: center;
+  appearance: none;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 1px -2px,rgba(0, 0, 0, .14) 0 2px 2px 0,rgba(0, 0, 0, .12) 0 1px 5px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Roboto,sans-serif;
+  font-size: .875rem;
+  font-weight: 500;
+  height: 36px;
+  justify-content: center;
+  letter-spacing: .0892857em;
+  line-height: normal;
+  min-width: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 0 16px;
+  margin-left:40px;
+
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  will-change: transform,opacity;
+}
+
+.button-61:hover {
+  box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+}
+
+.button-61:disabled {
+  background-color: rgba(0, 0, 0, .12);
+  box-shadow: rgba(0, 0, 0, .2) 0 0 0 0, rgba(0, 0, 0, .14) 0 0 0 0, rgba(0, 0, 0, .12) 0 0 0 0;
+  color: rgba(0, 0, 0, .37);
+  cursor: default;
+  pointer-events: none;
+}
+
+.button-61:not(:disabled) {
+  background-color: #6200ee;
+}
+
+.button-61:focus {
+  box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+}
+
+.button-61:active {
+  box-shadow: rgba(0, 0, 0, .2) 0 5px 5px -3px, rgba(0, 0, 0, .14) 0 8px 10px 1px, rgba(0, 0, 0, .12) 0 3px 14px 2px;
+  background: #A46BF5;
+}

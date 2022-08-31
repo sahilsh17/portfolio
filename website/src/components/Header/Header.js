@@ -1,6 +1,5 @@
 import React from 'react';
 import  './Header.css';
-import ParticleBackground from '../../ParticleBackground';
 import CenterTitle from '../Center-Title/CenterTitle';
 function Header() {
 
@@ -10,6 +9,7 @@ function Header() {
    
    <div className="header">
         <CenterTitle />
+       
    </div>
    </>
   );

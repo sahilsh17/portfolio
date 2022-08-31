@@ -10,26 +10,26 @@ function About() {
 
   return (
     <>
-    <h1 className="header-about">ABOUT </h1>
-    <div className="icon-container">
+    <h1 id="about" className="header-about">ABOUT </h1>
+    <div  className="icon-container">
       <div className="icon-bar">
-         <div className="icon"><FontAwesomeIcon color="#4963f8" icon={faTachometerAlt} size='4x'/></div>
+         <div className="icon"><FontAwesomeIcon color="#5C5CFF" icon={faTachometerAlt} size='4x'/></div>
          <h3 className='Font-header'>Fast</h3>
          <p>Fast load times and lag free interaction, my highest priority.</p>
       </div>
       
       <div className="icon-bar">
-         <div className="icon"><FontAwesomeIcon color="#4963f8" icon={faLightbulb} size='4x'/></div>
+         <div className="icon"><FontAwesomeIcon color="#5C5CFF" icon={faLightbulb} size='4x'/></div>
          <h3 className="Font-header">Responsive</h3>
          <p>Strong preference for easy to use, intuitive UX/UI.</p>
       </div>
       <div className="icon-bar">
-      <div className="icon"><FontAwesomeIcon color="#4963f8" icon={faLaptop} size='4x'/></div>
+      <div className="icon"><FontAwesomeIcon color="#5C5CFF" icon={faLaptop} size='4x'/></div>
       <h3 className="Font-header">Intuitive</h3>
       <p>My layouts will work on any device, big or small.</p>
       </div>
       <div className="icon-bar">
-      <div className='icon'><FontAwesomeIcon color="#4963f8" icon={faRocket} size='4x'/></div>
+      <div className='icon'><FontAwesomeIcon color="#5C5CFF" icon={faRocket} size='4x'/></div>
       <h3 className="Font-header">Dynamic</h3>
       <p>Websites don't have to be static, I love making pages come to life.</p>
       </div>
@@ -38,7 +38,7 @@ function About() {
     <section className="about">
     <div className="section-image">
       <div className="content-wrap">
-        <div className="image-container"> <img className="image" src="image.png" alt="profile"/></div>
+        <div className="image-container"> <img className="image" src="profile.jpg" alt="profile"/></div>
         <p>I am a Front-end developer based out of Surrey, BC, Canada. I have a serious passion for creating fast and responsive websites using the latest technologies.</p>
         </div>
     </div>

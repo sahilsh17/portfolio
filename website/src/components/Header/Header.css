@@ -7,21 +7,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Cantarell', sans-serif;
-  background-color: rgb(215, 237, 255);
+  font-family: 'Open Sans', sans-serif;
+  /* background-color: rgb(215, 237, 255); */
+  background-color: rgb(23 23 31);
 }
 
 span{
-  color: rgb(38, 109, 211);
+  /* color: rgb(38, 109, 211); */
+  color: rgb(92 92 255);
   font-weight: bold;
 }
 
 h1 {
   font-family:monospace;
 }
+
+
 @media screen and (max-width: 600px) {
   h1.custom-subtitle {
-    font-size: 1.5rem;
+    font-size: 50px;
   }
   
 }
